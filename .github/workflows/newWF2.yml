@@ -1,0 +1,13 @@
+name: Another workflow for my Testing
+on: push
+jobs:
+  build-job:
+    name: Test action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      name: Check out code
+    - name: Check out code
+      run: echo Hello World
+    - name: Course.html Content
+      run: cat Course.html
