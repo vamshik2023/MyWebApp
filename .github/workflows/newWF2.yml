@@ -4,6 +4,7 @@ on:
  push:
   paths:
   - '!.github/**'
+  - 'Index.html'
 
 jobs:
   build-job:
@@ -16,3 +17,4 @@ jobs:
       run: echo Hello World
     - name: courses.html Content
       run: cat courses.html
+      
