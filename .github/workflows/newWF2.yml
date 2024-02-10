@@ -1,5 +1,7 @@
 name: Another workflow for my Testing
 on: push
+workflow_dispatch:
+
 jobs:
   build-job:
     name: Test action
