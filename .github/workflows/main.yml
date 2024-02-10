@@ -1,1 +1,13 @@
-test
+name: A workflow for my Hello World file
+on: push
+jobs:
+  build-job:
+    name: Hello world action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      name: Check out code
+    - name: Check out code
+      run: echo Hello World
+    - name: Index.html Content
+      run: cat Index.html
