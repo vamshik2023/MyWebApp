@@ -3,8 +3,8 @@ on:
  workflow_dispatch:
  push:
   paths:
+  - '**'
   - '!.github/**'
-  - 'Index.html'
 
 jobs:
   build-job:
