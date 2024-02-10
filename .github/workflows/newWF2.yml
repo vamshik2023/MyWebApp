@@ -9,5 +9,5 @@ jobs:
       name: Check out code
     - name: Check out code
       run: echo Hello World
-    - name: Courses.html Content
-      run: cat Courses.html
+    - name: courses.html Content
+      run: cat courses.html
