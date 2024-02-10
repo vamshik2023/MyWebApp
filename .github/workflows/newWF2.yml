@@ -1,5 +1,5 @@
 name: Another workflow for my Testing
-on: push
+on:
 workflow_dispatch:
 
 jobs:
